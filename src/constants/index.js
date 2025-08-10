@@ -19,9 +19,8 @@ export const demoProjects = [
     creator: { _id: "123456789", name: "Santiago", surname: " De Compostella" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibusquia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    link: "https://www.blebleble.org",
-    linkYT:
-      "https://www.youtube.com/watch?v=vj85JKae-g4&list=RDvj85JKae-g4&start_radio=1",
+    link: "",
+    linkYT: "",
     tags: ["#planes", "#aviation", "#books"],
     photo: photo1,
     createdAt: new Date(),
@@ -32,9 +31,8 @@ export const demoProjects = [
     creator: { _id: "098765432", name: "Luis", surname: "Fernandez" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibusquia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    link: "https://www.blebleble.org",
-    linkYT:
-      "https://www.youtube.com/watch?v=vj85JKae-g4&list=RDvj85JKae-g4&start_radio=1",
+    link: "",
+    linkYT: "",
     tags: ["#work", "#manager"],
     photo: photo2,
     createdAt: new Date(),
@@ -42,12 +40,11 @@ export const demoProjects = [
   {
     _id: "3",
     appName: "Keyboards Shop",
-    creator: { _id: "132465798", name: "Miguel", surname: "Rodriguez" },
+    creator: { _id: "098765432", name: "Luis", surname: "Fernandez" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibusquia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    link: "https://www.blebleble.org",
-    linkYT:
-      "https://www.youtube.com/watch?v=vj85JKae-g4&list=RDvj85JKae-g4&start_radio=1",
+    link: "",
+    linkYT: "",
     tags: ["#music", "#keyboards"],
     photo: photo3,
     createdAt: new Date(),
@@ -62,9 +59,8 @@ export const demoProjects = [
     },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibusquia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    link: "https://www.blebleble.org",
-    linkYT:
-      "https://www.youtube.com/watch?v=vj85JKae-g4&list=RDvj85JKae-g4&start_radio=1",
+    link: "",
+    linkYT: "",
     tags: ["#money", "#budget"],
     photo: photo4,
     createdAt: new Date(),
@@ -76,8 +72,7 @@ export const demoProjects = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibusquia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
     link: "https://fixstuff.netlify.app/",
-    linkYT:
-      "https://www.youtube.com/watch?v=vj85JKae-g4&list=RDvj85JKae-g4&start_radio=1",
+    linkYT: "",
     tags: ["#fixing", "#repairs"],
     photo: photo5,
     createdAt: new Date(),
@@ -89,8 +84,7 @@ export const demoProjects = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibusquia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
     link: "https://guardian123.netlify.app/",
-    linkYT:
-      "https://www.youtube.com/watch?v=vj85JKae-g4&list=RDvj85JKae-g4&start_radio=1",
+    linkYT: "",
     tags: ["#babysitter", "#care", "#disabled"],
     photo: photo6,
     createdAt: new Date(),
@@ -107,7 +101,7 @@ export const demoUser = {
   mobile: "+48 222 333 444",
   projects: ["4"],
   reviews: [],
-  link: "wwww.google.com",
+  link: "",
 };
 
 export const users = [
@@ -121,7 +115,7 @@ export const users = [
     mobile: "+48 222 333 444",
     projects: ["1", "5", "6"],
     reviews: [],
-    link: "wwww.google.com",
+    link: "",
   },
   {
     _id: "098765432",
@@ -133,6 +127,6 @@ export const users = [
     mobile: "+48 222 333 444",
     projects: ["2", "3"],
     reviews: [],
-    link: "wwww.google.com",
+    link: "",
   },
 ];

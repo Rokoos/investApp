@@ -70,40 +70,44 @@ const SingleProject = () => {
             </div>
           </div>
           {/*Project Site */}
-          <div className="mb-2 w-[80%] md:w-[40rem] md:mt-2 ">
-            <label
-              htmlFor="category"
-              className=" block text-sm font-bold  leading-6 text-navy mt-2 border-b border-sky-400 md:text-base pb-2"
-            >
-              Project Site
-            </label>
-            <div className="flex justify-center my-2">
-              <a
-                target={"_blank"}
-                rel="noopener noreferrer"
-                href={project.link}
-                className="  text-navy text-sm text-justify md:text-base"
+          {project.link && (
+            <div className="mb-2 w-[80%] md:w-[40rem] md:mt-2 ">
+              <label
+                htmlFor="category"
+                className=" block text-sm font-bold  leading-6 text-navy mt-2 border-b border-sky-400 md:text-base pb-2"
               >
-                Website
-              </a>
+                Project Site
+              </label>
+              <div className="flex justify-center my-2">
+                <a
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                  href={project.link}
+                  className="  text-navy text-sm text-justify md:text-base"
+                >
+                  Website
+                </a>
+              </div>
             </div>
-          </div>
+          )}
           {/*Project YT Channel */}
-          <div className="mb-2 w-[80%] md:w-[40rem] md:mt-2 ">
-            <label className=" block text-sm font-bold  leading-6 text-navy mt-2 border-b border-sky-400 md:text-base pb-2">
-              Project YT
-            </label>
-            <div className="flex justify-center my-2">
-              <a
-                target={"_blank"}
-                rel="noopener noreferrer"
-                href={project.linkYT}
-                className="  text-navy text-sm text-justify md:text-base"
-              >
-                Check it out on YT!
-              </a>
+          {project.linkYT && (
+            <div className="mb-2 w-[80%] md:w-[40rem] md:mt-2 ">
+              <label className=" block text-sm font-bold  leading-6 text-navy mt-2 border-b border-sky-400 md:text-base pb-2">
+                Project YT
+              </label>
+              <div className="flex justify-center my-2">
+                <a
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                  href={project.linkYT}
+                  className="  text-navy text-sm text-justify md:text-base"
+                >
+                  Check it out on YT!
+                </a>
+              </div>
             </div>
-          </div>
+          )}
           {project.creator._id !== user._id && (
             <div className="mt-10 ">
               <Button label="Contact Creator" />

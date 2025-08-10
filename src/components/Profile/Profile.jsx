@@ -63,24 +63,26 @@ const Profile = () => {
             </div>
           </div>
           {/*Portfolio Site */}
-          <div className="mb-2 w-[80%] md:w-[40rem] md:mt-2 ">
-            <label
-              htmlFor="category"
-              className=" block text-sm font-bold  leading-6 text-navy mt-2 border-b border-sky-400 md:text-base pb-2"
-            >
-              Portfolio
-            </label>
-            <div className="flex justify-center my-2">
-              <a
-                target={"_blank"}
-                rel="noopener noreferrer"
-                href={person.link}
-                className="  text-navy text-sm text-justify md:text-base"
+          {person.link && (
+            <div className="mb-2 w-[80%] md:w-[40rem] md:mt-2 ">
+              <label
+                htmlFor="category"
+                className=" block text-sm font-bold  leading-6 text-navy mt-2 border-b border-sky-400 md:text-base pb-2"
               >
-                Website
-              </a>
+                Portfolio
+              </label>
+              <div className="flex justify-center my-2">
+                <a
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                  href={person.link}
+                  className="  text-navy text-sm text-justify md:text-base"
+                >
+                  Website
+                </a>
+              </div>
             </div>
-          </div>
+          )}
           {/*mobile */}
           <div className="mb-2 w-[80%] md:w-[40rem] md:mt-2 ">
             <label
